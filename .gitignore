@@ -19,5 +19,6 @@ bin/
 .classpath
 .factorypath
 
-# TESTING
+# App data
 data/
+!src/main/java/bee/data/
