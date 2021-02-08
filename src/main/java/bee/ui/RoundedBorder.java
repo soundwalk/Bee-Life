@@ -1,4 +1,4 @@
-package bee;
+package bee.ui;
 
 import java.awt.Component;
 import java.awt.Graphics;

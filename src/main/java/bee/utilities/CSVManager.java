@@ -1,4 +1,6 @@
-package bee;
+package bee.utilities;
+
+import bee.data.*;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

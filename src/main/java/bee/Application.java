@@ -1,5 +1,8 @@
 package bee;
 
+import bee.ui.FrameUI;
+import bee.utilities.CSVManager;
+
 import java.util.Locale;
 
 public class Application {

@@ -1,4 +1,7 @@
-package bee;
+package bee.ui;
+
+import bee.utilities.CSVManager;
+import bee.data.*;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -33,8 +36,8 @@ public class DialogEdit {
 	private JButton btnSave;
 	private JLabel lblStartingScaleBox, lblBeehivesBox, lblHoneyTypeBox, lblPlaceBox;
 	private JLabel lblStartingScaleD, lblBalanceD, lblBeehivesD, lblHoneyAmountD, lblHoneyTypeD, lblPlaceD;
-	private ImageIcon ic_check = new ImageIcon("./img/check.png");
-	private ImageIcon ic_alert = new ImageIcon("./img/alert.png");
+	private ImageIcon ic_check = new ImageIcon("./src/main/resources/img/check.png");
+	private ImageIcon ic_alert = new ImageIcon("./src/main/resources/img/alert.png");
 	private CSVManager cmanager = new CSVManager();
 	private XYChart chart;
 
@@ -59,7 +62,7 @@ public class DialogEdit {
 
 	private void createDialogEdit() {
 		dialog = new JDialog();
-		dialog.setIconImage(new ImageIcon("./img/app.png").getImage());
+		dialog.setIconImage(new ImageIcon("./src/main/resources/img/app.png").getImage());
 		dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 		dialog.setResizable(false);
 		dialog.setTitle("Edit beefarm info");

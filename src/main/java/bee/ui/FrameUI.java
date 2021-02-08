@@ -1,4 +1,7 @@
-package bee;
+package bee.ui;
+
+import bee.utilities.CSVManager;
+import bee.data.*;
 
 import java.awt.Color;
 
@@ -51,7 +54,7 @@ public class FrameUI {
 
 	private void createFrameMain() {
 		frame = new JFrame("Bee life");
-		frame.setIconImage(new ImageIcon("./img/app.png").getImage());
+		frame.setIconImage(new ImageIcon("./src/main/resources/img/app.png").getImage());
 		frame.setSize(960, 490);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
