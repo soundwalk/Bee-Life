@@ -11,11 +11,11 @@ Tool for tracking scale values on a bee farm.
 
 # Building the Application
 + download the App `git clone https://github.com/soundwalk/Bee-Life.git`
-+ go to the main folder `cd .\Bee-Life\`
-+ build the App `.\gradlew installDist`
-+ run the App via `java -jar .\build\libs\Bee-Life-1.0-all.jar`
++ go to the main folder `cd ./Bee-Life/`
++ build the App `./gradlew installDist`
++ run the App via `java -jar ./build/libs/Bee-Life-1.0-all.jar`
 
 # Running the Application directly from the build
 + download the App `git clone https://github.com/soundwalk/Bee-Life.git`
-+ go to the main folder `cd .\Bee-Life\`
-+ run the App via `.\gradlew run`
++ go to the main folder `cd ./Bee-Life/`
++ run the App via `./gradlew run`
