@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+application {
+    mainClass = 'bee.Application'
+}
+
+sourceCompatibility = '1.8'
+version = '1.0'
+
+repositories { 
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.knowm.xchart', name: 'xchart', version: '3.6.4'
+    compile group: 'commons-io', name: 'commons-io', version: '2.7'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'bee.Application'
+        )
+    }
+}

@@ -1,3 +1,5 @@
+package bee;
+
 import java.awt.Color;
 import java.awt.Font;
 

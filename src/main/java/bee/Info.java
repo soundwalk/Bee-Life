@@ -1,3 +1,4 @@
+package bee;
 
 public class Info {
 	private int beehives;

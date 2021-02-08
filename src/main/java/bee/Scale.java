@@ -1,3 +1,4 @@
+package bee;
 
 public class Scale {
 	private int day;

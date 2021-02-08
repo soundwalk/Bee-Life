@@ -1,3 +1,5 @@
+package bee;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,12 +15,13 @@ import javax.swing.JOptionPane;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
+
 import org.knowm.xchart.BitmapEncoder;
 import org.knowm.xchart.BitmapEncoder.BitmapFormat;
 import org.knowm.xchart.XYChart;
 
 public class CSVManager {
-	private static final String dir = "Program data";
+	private static final String dir = "data";
 	private final static String TABLE_PATH = dir + File.separator + "table.csv";
 	private final static String VALUES_PATH = dir + File.separator + "values.csv";
 	private final String TEMP_PATH = dir + File.separator + "temp.csv";
