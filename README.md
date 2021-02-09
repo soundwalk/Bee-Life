@@ -1,5 +1,5 @@
 # Bee Life
-Tool for tracking scale values on a bee farm.
+A desktop tool used to monitor beekeeping scale in the apiary.
 
 # Key features
 - Track scale value
@@ -10,12 +10,12 @@ Tool for tracking scale values on a bee farm.
   2. Scale values chart as a .png picture
 
 # Building the Application
-+ download the App `git clone https://github.com/soundwalk/Bee-Life.git`
++ download the soruce code `git clone https://github.com/soundwalk/Bee-Life.git`
 + go to the main folder `cd ./Bee-Life/`
 + build the App `./gradlew installDist`
 + run the App via `java -jar ./build/libs/Bee-Life-1.0-all.jar`
 
 # Running the Application directly from the build
-+ download the App `git clone https://github.com/soundwalk/Bee-Life.git`
++ download the soruce code `git clone https://github.com/soundwalk/Bee-Life.git`
 + go to the main folder `cd ./Bee-Life/`
 + run the App via `./gradlew run`
