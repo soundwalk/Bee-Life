@@ -142,7 +142,7 @@ public class DialogEdit {
 		btnSave = new JButton("Save");
 		btnSave.setForeground(Color.DARK_GRAY);
 		btnSave.setFont(new Font("SansSerif", Font.PLAIN, 13));
-		btnSave.setBorder(new RoundedBorder(5));
+		btnSave.setBorder(new RoundedBorder(12));
 		btnSave.setBackground(Color.ORANGE);
 		btnSave.setBounds(29, 102, 190, 26);
 		panel.add(btnSave);

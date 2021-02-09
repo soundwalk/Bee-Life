@@ -94,7 +94,7 @@ public class FrameUI {
 		btnDelete = new JButton("Delete");
 		btnDelete.setForeground(Color.DARK_GRAY);
 		btnDelete.setFont(new Font("SansSerif", Font.PLAIN, 13));
-		btnDelete.setBorder(new RoundedBorder(5));
+		btnDelete.setBorder(new RoundedBorder(11));
 		btnDelete.setBackground(Color.ORANGE);
 		btnDelete.setBounds(35, 70, 140, 25);
 		panel.add(btnDelete);
@@ -102,7 +102,7 @@ public class FrameUI {
 		btnReset = new JButton("Reset");
 		btnReset.setForeground(Color.DARK_GRAY);
 		btnReset.setFont(new Font("SansSerif", Font.PLAIN, 13));
-		btnReset.setBorder(new RoundedBorder(5));
+		btnReset.setBorder(new RoundedBorder(11));
 		btnReset.setBackground(Color.ORANGE);
 		btnReset.setBounds(35, 120, 140, 25);
 		panel.add(btnReset);
@@ -116,7 +116,7 @@ public class FrameUI {
 
 		JPanel panelInfo = new JPanel();
 		panelInfo.setBackground(new Color(240, 255, 240));
-		panelInfo.setBorder(new RoundedBorder(10));
+		panelInfo.setBorder(new RoundedBorder(11));
 		panelInfo.setBounds(20, 180, 190, 140);
 		panel.add(panelInfo);
 		panelInfo.setLayout(null);
@@ -184,7 +184,7 @@ public class FrameUI {
 		btnEdit = new JButton("Edit");
 		btnEdit.setForeground(Color.DARK_GRAY);
 		btnEdit.setFont(new Font("SansSerif", Font.PLAIN, 13));
-		btnEdit.setBorder(new RoundedBorder(5));
+		btnEdit.setBorder(new RoundedBorder(11));
 		btnEdit.setBackground(Color.ORANGE);
 		btnEdit.setBounds(35, 345, 140, 25);
 		panel.add(btnEdit);
@@ -192,7 +192,7 @@ public class FrameUI {
 		btnSave = new JButton("Save data");
 		btnSave.setForeground(Color.DARK_GRAY);
 		btnSave.setFont(new Font("SansSerif", Font.PLAIN, 13));
-		btnSave.setBorder(new RoundedBorder(5));
+		btnSave.setBorder(new RoundedBorder(11));
 		btnSave.setBackground(Color.ORANGE);
 		btnSave.setBounds(35, 395, 140, 25);
 		panel.add(btnSave);
@@ -343,7 +343,7 @@ public class FrameUI {
 				.setLineColor(Color.BLACK);
 
 		panelChart = new XChartPanel<>(chart);
-		panelChart.setBorder(new RoundedBorder(5));
+		panelChart.setBorder(new RoundedBorder(11));
 		panelChart.setBounds(440, 20, 490, 420);
 		panelChart.setComponentPopupMenu(new JPopupMenu());
 		panel.add(panelChart);
