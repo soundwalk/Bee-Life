@@ -7,15 +7,15 @@ A desktop tool used to monitor beekeeping scale in the apiary.
 - The ability to add more info about bee farm, such as the number of beehives, honey type, bee farm's place, etc.
 - The ability to export data:
   1. Scale values as an Excel/CSV file
-  2. Scale values chart as a .png picture
+  2. Scale values chart in the .png format
 
 # Building the Application
-+ download the soruce code `git clone https://github.com/soundwalk/Bee-Life.git`
++ download the source code `git clone https://github.com/soundwalk/Bee-Life.git`
 + go to the main folder `cd ./Bee-Life/`
 + build the App `./gradlew installDist`
 + run the App via `java -jar ./build/libs/Bee-Life-1.0-all.jar`
 
 # Running the Application directly from the build
-+ download the soruce code `git clone https://github.com/soundwalk/Bee-Life.git`
++ download the source code `git clone https://github.com/soundwalk/Bee-Life.git`
 + go to the main folder `cd ./Bee-Life/`
 + run the App via `./gradlew run`
