@@ -9,6 +9,9 @@ A desktop tool used to monitor beekeeping scale in the apiary.
   1. Scale values as an Excel/CSV file
   2. Scale values chart in the .png format
 
+# GUI
+![Main UI](./img/ui-main.png)
+
 # Building the Application
 + download the source code `git clone https://github.com/soundwalk/Bee-Life.git`
 + go to the main folder `cd ./Bee-Life/`
