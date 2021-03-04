@@ -1,10 +1,9 @@
 package bee.ui;
 
-import bee.utilities.CSVManager;
-import bee.data.*;
+import bee.utility.CSVManager;
+import bee.entity.*;
 
-import java.awt.Color;
-import java.awt.Font;
+import java.util.ArrayList;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -16,16 +15,17 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
-import org.knowm.xchart.XYChart;
-import org.knowm.xchart.style.markers.SeriesMarkers;
-
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.ArrayList;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+
+import org.knowm.xchart.XYChart;
+import org.knowm.xchart.style.markers.SeriesMarkers;
 
 public class DialogEdit {
 	private JFrame frame;

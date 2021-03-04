@@ -1,37 +1,36 @@
 package bee.ui;
 
-import bee.utilities.CSVManager;
-import bee.data.*;
+import bee.utility.CSVManager;
+import bee.entity.*;
 
-import java.awt.Color;
+import java.util.ArrayList;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 import javax.swing.JLabel;
-import java.awt.Font;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.util.ArrayList;
-
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JTable;
+import javax.swing.JScrollPane;
+import javax.swing.ScrollPaneConstants;
+
+import java.awt.Font;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.Color;
 
 import org.knowm.xchart.XChartPanel;
 import org.knowm.xchart.XYChart;
 import org.knowm.xchart.XYChartBuilder;
 import org.knowm.xchart.style.Styler;
 import org.knowm.xchart.style.markers.SeriesMarkers;
-
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JTable;
-import javax.swing.JScrollPane;
-import javax.swing.ScrollPaneConstants;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
 public class FrameUI {
 	private JFrame frame;
@@ -130,7 +129,7 @@ public class FrameUI {
 		lblStartingScaleD.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		lblStartingScaleD.setBounds(105, 15, 70, 15);
 		panelInfo.add(lblStartingScaleD);
-		
+
 		JLabel lblBalance = new JLabel("Balance:");
 		lblBalance.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		lblBalance.setBounds(44, 35, 66, 15);
@@ -283,8 +282,8 @@ public class FrameUI {
 		btnEdit.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				new DialogEdit(frame, model, lblStartingScaleD, lblBalanceD, lblBeehivesD, lblHoneyAmountD, lblHoneyTypeD, lblPlaceD,
-						panelChart, chart);
+				new DialogEdit(frame, model, lblStartingScaleD, lblBalanceD, lblBeehivesD, lblHoneyAmountD,
+						lblHoneyTypeD, lblPlaceD, panelChart, chart);
 			}
 		});
 

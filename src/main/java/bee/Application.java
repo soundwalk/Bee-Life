@@ -1,7 +1,7 @@
 package bee;
 
 import bee.ui.FrameUI;
-import bee.utilities.CSVManager;
+import bee.utility.CSVManager;
 
 import java.util.Locale;
 

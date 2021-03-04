@@ -1,4 +1,4 @@
-package bee.data;
+package bee.entity;
 
 public class Info {
 	private int beehives;

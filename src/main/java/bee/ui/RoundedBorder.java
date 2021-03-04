@@ -1,10 +1,10 @@
 package bee.ui;
 
+import javax.swing.border.Border;
+
 import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Insets;
-
-import javax.swing.border.Border;
 
 public class RoundedBorder implements Border {
 
